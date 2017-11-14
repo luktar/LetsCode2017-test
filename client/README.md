@@ -24,7 +24,7 @@ This command should output your angular-cli version.
 
 ## Install external packages
 ```bash
-cd LetsCode2017-test
+cd LetsCode2017-test/client
 npm run install
 ```
 
