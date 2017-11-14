@@ -13,7 +13,7 @@ This command should output your node version.
 After doing that you have to install angular-cli globally.
 In order to do that run:
 ```bash
-npm install -g @angular/cli
+npm install -g @angular/cli@latest
 ```
 In order to verify your installation run:
 ```bash
