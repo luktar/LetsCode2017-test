@@ -1,7 +1,7 @@
 # LetsCode2017-test
 Test repository for Let's Code 2017 event.
 
-How to set up backend:
+## How to set up backend:
 
 1. Download latest version of VSCode.
 2. Download VSCode extension for C#
@@ -16,3 +16,7 @@ How to set up backend:
 11. You should see: [{"id":1,"name":"Hello MySQL!","isComplete":true}]
 
 Done!
+
+## How to setup client:
+
+1. Look at README file in client folder.
