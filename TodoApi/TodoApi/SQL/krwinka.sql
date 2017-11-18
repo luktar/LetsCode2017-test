@@ -129,13 +129,13 @@ INSERT INTO `doners_blood_centers_map` VALUES (1,1),(1,2),(2,1),(2,2),(3,1),(3,2
 UNLOCK TABLES;
 
 --
--- Table structure for table `todoitems`
+-- Table structure for table `TodoItems`
 --
 
-DROP TABLE IF EXISTS `todoitems`;
+DROP TABLE IF EXISTS `TodoItems`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `todoitems` (
+CREATE TABLE `TodoItems` (
   `Id` int(11) NOT NULL AUTO_INCREMENT,
   `Name` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
   `IsComplete` tinyint(1) NOT NULL,
@@ -144,12 +144,12 @@ CREATE TABLE `todoitems` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `todoitems`
+-- Dumping data for table `TodoItems`
 --
 
-LOCK TABLES `todoitems` WRITE;
-/*!40000 ALTER TABLE `todoitems` DISABLE KEYS */;
-/*!40000 ALTER TABLE `todoitems` ENABLE KEYS */;
+LOCK TABLES `TodoItems` WRITE;
+/*!40000 ALTER TABLE `TodoItems` DISABLE KEYS */;
+/*!40000 ALTER TABLE `TodoItems` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
